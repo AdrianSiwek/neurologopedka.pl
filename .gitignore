@@ -1,0 +1,104 @@
+# Dzienniki
+dzienniki
+* .log
+npm-debug.log *
+włóczka-debug.log *
+włóczka-błąd.log *
+lerna-debug.log *
+
+# Raporty diagnostyczne (https://nodejs.org/api/report.html)
+raport. [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * .json
+
+# Dane wykonawcze
+pidowie
+* .pid
+* .nasion
+* .pid.lock
+
+# Katalog dla oprzyrządowanych bibliotek generowanych przez jscoverage/JSCover
+lib-cov
+
+# Katalog pokrycia używany przez narzędzia takie jak istanbul
+zasięg
+* .lcov
+
+# zasięg testu nyc
+.nyc_wyjście
+
+# Magazyn pośredni Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.chrząknięcie
+
+# Katalog zależności Bower (https://bower.io/)
+bower_components
+
+# konfiguracja node-waf
+.lock-wscript
+
+# Skompilowane dodatki binarne (https://nodejs.org/api/addons.html)
+kompilacja / wydanie
+
+# katalogi zależności
+node_modules /
+jspm_pakiety /
+
+# Pliki deklaracji TypeScript v1
+typowanie /
+
+# Pamięć podręczna TypeScript
+* .tsbuildinfo
+
+# Opcjonalny katalog pamięci podręcznej npm
+.npm
+
+# Opcjonalna pamięć podręczna eslint
+.eslintcache
+
+# Pamięć podręczna mikrozestawów
+.rpt2_cache /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Opcjonalna historia REPL
+.node_repl_history
+
+# Wyjście 'pakietu npm'
+* .tgz
+
+# Plik integralności przędzy
+.integralność przędzy
+
+# plik zmiennych środowiskowych dotenv
+.env
+.env.test
+
+# cache-paczka paczek (https://parceljs.org/)
+.Pamięć podręczna
+
+# Wyjście kompilacji Next.js
+.następny
+
+# Budowanie / generowanie danych wyjściowych Nuxt.js
+.nuxt
+odległość
+
+# Pliki Gatsby
+pamięć podręczna /
+# Komentarz w linii publicznej, jeśli twój projekt używa Gatsby i *nie* Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# publiczne
+
+# vuepress kompilacja danych wyjściowych
+.vuepress / dist
+
+# Katalogi bezserwerowe
+.bezserwerowy /
+
+# Pamięć podręczna FuseBox
+skrzynka bezpieczników /
+
+# Pliki lokalne DynamoDB
+.dynamodb /
+
+# Plik portu TernJS
+.tern-port
