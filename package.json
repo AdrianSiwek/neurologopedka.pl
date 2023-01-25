@@ -19,6 +19,7 @@
   "homepage": "https://github.com/AdrianSiwek/neurologopedka.pl#readme",
   "dependencies": {
     "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.6",
     "simplelightbox": "^2.12.1",
     "validator": "^13.7.0"
