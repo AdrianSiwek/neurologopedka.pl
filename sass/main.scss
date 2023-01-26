@@ -1,2 +1,17 @@
 //basis//
-@import "./basis/container.scss"
+@import "./basis/container.scss";
+
+
+
+//utils //
+@import "./utils/variables.scss";
+
+
+//components //
+@import "./components/_logo.scss";
+@import "./components/_topcontact.scss";
+@import "./components/_hamburger.scss";
+@import "./components/_icone.scss";
+
+//layout //
+@import "./layout/_studioheader.scss";

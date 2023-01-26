@@ -6,3 +6,72 @@
           ></a
         >
       </h3>
+      <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            class="menu-toggle__icon"
+            width="24"
+            height="16"
+            viewBox="0 0 24 16"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z"
+            />
+          </svg>
+        </button>
+        <nav>
+          <ul class="navi">
+            <li class="navi__item navi__item--start">
+              <a class="navi__links navi__links--underline" href="./index.html"
+                >Strona Główna</a
+              >
+            </li>
+            <li class="navi__item navi__item--start">
+              <a class="navi__links" href="#">O mnie</a>
+            </li>
+            <li class="navi__item">
+              <a class="navi__links" href="#">Kontakt</a>
+            </li>
+            <li class="navi__item">
+                <a class="navi__links" href="#">Cennik</a>
+              </li>
+          </ul>
+        </nav>
+        <ul class="top-contact">
+          <li class="top-contact__object">
+            <a
+              class="top-contact__link top-contact__link--hover"
+              href="mailto:info@example.com"
+            >
+              <svg
+                class="top-contact__icon top-contact__icon--mail"
+                width="16"
+                height="12"
+              >
+                <use href="./image/icons.svg#icon-envelope"></use>
+              </svg>
+              info@example.com</a
+            >
+          </li>
+          <li class="top-contact__object">
+            <a
+              class="top-contact__link top-contact__link--end top-contact__link--hover"
+              href="tel:+48111111111"
+              ><svg
+                class="top-contact__icon top-contact__icon--phone"
+                width="10"
+                height="16"
+              >
+                <use href="./image/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48111111111</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
