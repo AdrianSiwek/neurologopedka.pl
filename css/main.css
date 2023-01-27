@@ -22,7 +22,7 @@
 
 :root {
   --text-main-color: #212121;
-  --brand-mlight-color: #f3219c;
+  --brand-mlight-color: #7097df;
   --brand-second-color: #ffffff;
   --brand-two-color: #2f303a;
   --brand-contact-color: #757575;
@@ -126,6 +126,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -376,6 +378,54 @@
   padding-top: 16px;
 }
 
+.navi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+.navi__item {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-size: 14px;
+  color: #212121;
+}
+.navi__item--start {
+  margin-right: 46px;
+}
+.navi__links {
+  text-decoration: none;
+  position: relative;
+  color: var(--text-main-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  -webkit-transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, box-shadow;
+  transition-property: color, background-color, box-shadow, -webkit-box-shadow;
+}
+.navi__links--underline::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-top: 4px solid var(--brand-mlight-color);
+  border-radius: 2px;
+  width: 100%;
+  bottom: -33px;
+  left: 0;
+}
+.navi__links:active, .navi__links:hover, .navi__links:focus {
+  color: var(--brand-mlight-color);
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navi {
+    display: none;
+    overflow: hidden;
+  }
+}
 .studio-header {
   height: 60px;
   display: -webkit-box;
