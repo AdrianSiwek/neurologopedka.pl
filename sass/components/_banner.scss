@@ -1,0 +1,117 @@
+.description {
+    display: flex;
+    min-height: 400px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(47, 48, 58, 0.4) 0%,
+        rgba(47, 48, 58, 0.4) 100%
+      ),
+      url("../image/desktop/logopedia.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: auto;
+      }
+  
+  &__name{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.06em;
+    color: var(--brand-second-color);
+    max-width: 365px;
+  }
+  }
+  
+  //tablet
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .description {
+      display: flex;
+      min-height: 400px;
+      background-image: linear-gradient(0deg,
+          rgba(47, 48, 58, 0.4) 0%,
+          rgba(47, 48, 58, 0.4) 100%),
+        url("../image/desktop/logopedia.png");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  
+  //desktop
+  @media screen and (min-width: 1200px) {
+  .description {
+    display: flex;
+    min-height: 600px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(47, 48, 58, 0.4) 0%,
+        rgba(47, 48, 58, 0.4) 100%
+      ),
+      url("../image/desktop/logopedia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+  
+  &__name {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.06em;
+    color: var(--brand-second-color);
+    max-width: 696px;
+  }
+  }
+  }
+  
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (min-width:320px) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (min-width:320px) and (max-width: 767px) {
+    .description {
+      background-image: linear-gradient(0deg,
+          rgba(47, 48, 58, 0.4) 0%,
+          rgba(47, 48, 58, 0.4) 100%),
+        url("../image/desktop/logopedia.png");
+        background-size: cover;
+    }
+  }
+  
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
+    .description {
+      min-height: 400px;
+      background-image: linear-gradient(0deg,
+          rgba(47, 48, 58, 0.4) 0%,
+          rgba(47, 48, 58, 0.4) 100%),
+        url("../image/desktop/logopedia.png");
+      background-size: cover;
+    }
+  }
+  
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+      screen and (min-resolution: 192dpi) and (min-width: 1200px),
+      screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+      .description {
+          min-height: 600px;
+          background-image: linear-gradient(
+                  0deg,
+                  rgba(47, 48, 58, 0.4) 0%,
+                  rgba(47, 48, 58, 0.4) 100%
+              ),
+              url("../image/desktop/logopedia.png");
+          background-size: 1600px;
+      }
+  }
